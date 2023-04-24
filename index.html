@@ -4,152 +4,281 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FICHA TECNICA</title>
+    <title>Ficha Tecnica</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/scrippt.js"></script>
 </head>
 <body>
     <h1>FICHA TECNICA</h1>
-    <form>
-        <table>
-          <tr>
-            <th>FICHA TECNICA</th>
-            <td colspan="3"> TECNO GYM</td>
-          </tr>  
-          <tr>
-            <th colspan="2">CARACTERISTICAS DEL PRODUCTO</th>
-          </tr>
-          <tr>
-            <th >NOMBRE DEL PRODUCTO</th>
-            <td colspan="3"><center><input type="text"></center></td>
+
+    <table>
+        <tr>
+            <th colspan="4">FICHA TECNICA</th>
+        </tr>
+        <tr>
+            <th colspan="4">CARACTERISTICAS DEL PRODUCTO</th>
+        </tr>
+        <tr>
+            <th>NOMBRE DEL PRODUCTO</th>
+            <td colspan="3"><input id="nompro" type="text" placeholder="NOMBRE DEL PRODUCTO"></td>
         </tr>
         <tr>
             <th>LINEA DE PRODUCCION</th>
-            <td colspan="3"><center><input type="text"></center></td>
+            <td colspan="3"><input id="linpro" type="text" placeholder="LINEA DE PRODUCCION"></td>
         </tr>
         <tr>
             <th>VERSIONES ANTERIORES</th>
-            <td colspan="3"><center><input type="text"></center></td>
+            <td colspan="3"><input id="verant" type="text" placeholder="VERSIONES ANTERIORES"></td>
         </tr>
         <tr>
             <th>VERSIONES ACTUALES</th>
-            <td colspan="3"><center><input type="text"></center></td>
+            <td colspan="3"><input id="veract" type="text" placeholder="VERSIONES ACTUALES"></td>
         </tr>
         <tr>
-            <th colspan="2">MÒDULO</th>   
+            <th colspan="4">MODULO</th>
         </tr>
         <tr>
             <th>USUARIOS</th>
-            <td colspan="3"><center><input type="text"></center></td>
+            <td colspan="3"><input id="modusu" type="text" placeholder="USUARIOS"></td>
         </tr>
         <tr>
             <th>OBJETIVO</th>
-            <td colspan="3"><center><input type="text"></center></td>
+            <td colspan="3"><input id="modobje" type="text" placeholder="OBJETIVO"></td>
         </tr>
         <tr>
-            <th colspan="4">DESCRIPCION DEL PRODUCTO</th>   
+            <th colspan="4">DESCRIPCION DEL PRODUCTO</th>
         </tr>
         <tr>
             <th>DESCRIPCION GENERAL DEL PRODUCTO</th>
-            <td colspan="3"><center><input type="text"></center></td>
+            <td colspan="3"><input id="desgepro" type="text" placeholder="DESCRIPCION GENERAL DEL PRODUCTO"></td>
         </tr>
         <tr>
             <th>OBJETIVO</th>
-            <td colspan="3"><center><input type="text"></center></td>
+            <td colspan="3"><input id="obje" type="text" placeholder="OBJETIVO"></td>
         </tr>
         <tr>
             <th>ARQUITECTURA</th>
-            <td colspan="3"><center><input type="text"></center></td>
+            <td colspan="3"><input id="arqui" type="text" placeholder="ARQUITECTURA"></td>
         </tr>
         <tr>
-            <th colspan="2">REQUERIMIENTOS DEL PRODUCTO</th>   
+            <th colspan="4">REQUERIMIENTOS DEL PRODUCTO</th>
         </tr>
         <tr>
             <th rowspan="4">REQUISITOS DEL SISTEMA (SERVIDOR)</th>
-
         </tr>
         <tr>
             <th>HARDWARE</th>
-            <td colspan="3"><input type="text"></td>
-
+            <td colspan="2"><input id="serhard" type="text" placeholder="SERVIDOR HARDWARE"></td>
         </tr>
         <tr>
             <th>SOFTWARE</th>
-            <td colspan="3"><input type="text"></td>
+            <td colspan="2"><input id="sersoft" type="text" placeholder="SERVIDOR SOFTWARE"></td>
         </tr>
         <tr>
             <th>OTROS</th>
-            <td colspan="3"><input type="text"></td>
+            <td colspan="2"><input id="serotro" type="text" placeholder="SERVIDOR OTROS"></td>
         </tr>
         <tr>
             <th rowspan="4">REQUISITOS DEL SISTEMA (CLIENTE)</th>
-
         </tr>
         <tr>
             <th>HARDWARE</th>
-            <td colspan="3"><input type="text"></td>
-
+            <td colspan="2"><input id="clihard" type="text" placeholder="CLIENTE HARDWARE"></td>
         </tr>
         <tr>
             <th>SOFTWARE</th>
-            <td colspan="3"><input type="text"></td>
+            <td colspan="2"><input id="clisoft" type="text" placeholder="CLIENTE SOFTWARE"></td>
         </tr>
         <tr>
             <th>OTROS</th>
-            <td colspan="3"><input type="text"></td>
+            <td colspan="2"><input id="cliotro" type="text" placeholder="CLIENTE OTROS"></td>
         </tr>
         <tr>
             <th rowspan="4">REQUERIMIENTOS</th>
-
         </tr>
         <tr>
             <th>REQUERIMIENTOS FUNCIONALES GENERALES</th>
-            <td colspan="3"><input type="text"></td>
-
+            <td colspan="2"><input id="requefungene" type="text" placeholder="REQUERIMIENTOS FUNCIONALES GENERALES"></td>
         </tr>
         <tr>
             <th>REQUERIMIENTOS ADICIONALES</th>
-            <td colspan="3"><input type="text"></td>
+            <td colspan="2"><input id="requeadi" type="text" placeholder="REQUERIMIENTOS ADICIONALES"></td>
         </tr>
         <tr>
-            <th>CLIENTRES DEL PRODUCTO</th>
-            <td colspan="3"><input type="text"></td>
+            <th>CLIENTES DEL PRODUCTO</th>
+            <td colspan="2"><input id="clipro" type="text" placeholder="CLIENTES DEL PRODUCTO"></td>
         </tr>
         <tr>
             <th>VERSION</th>
             <th>NATURALEZA</th>
             <th>FECHA DE ELABORACION</th>
-            <th>FECHA DE VALIDACIÓN</th>
+            <th>FECHA DE VALIDACION</th>
         </tr>
         <tr>
-            <td><input type="text"></td>
-            <td><input type="text"></td>
-            <td><input type="text"></td>
-            <td><input type="text"></td>
+            <td><input id="versi" type="text" placeholder="VERSION"></td>
+            <td><input id="natura" type="text" placeholder="NATURALEZA"></td>
+            <td><input id="fechaela" type="text" placeholder="FECHA DE ELABORACION"></td>
+            <td><input id="fechavali" type="text" placeholder="FECHA DE VALIDACION"></td>
         </tr>
         <tr>
-            <td><input type="text"></td>
-            <td><input type="text"></td>
-            <td><input type="text"></td>
-            <td><input type="text"></td>
+            <td><input id="versi2" type="text" placeholder="VERSION"></td>
+            <td><input id="natura2" type="text" placeholder="NATURALEZA"></td>
+            <td><input id="fechaela2" type="text" placeholder="FECHA DE ELABORACION"></td>
+            <td><input id="fechavali2" type="text" placeholder="FECHA DE VALIDACION"></td>
         </tr>
         <tr>
             <th>ELABORO</th>
             <th>APROBO</th>
-            <th colspan="2">VALIDO</th>
+            <th>VALIDO</th>
         </tr>
         <tr>
             <th>FIRMA</th>
-            <td><input type="text"></td>
-            <td colspan="2"><input type="text"></td>
+            <td><input id="firmapro" type="text" placeholder="APROBO"></td>
+            <td colspan="2"><input id="firmvali" type="text" placeholder="VALIDO"></td>
         </tr>
         <tr>
             <th>FECHA</th>
-            <td><input type="text"></td>
-            <td colspan="2"><input type="text"></td>
+            <td><input id="fechaapro" type="text" placeholder="APROBO"></td>
+            <td colspan="2"><input id="fechavalido" type="text" placeholder="VALIDO"></td>
         </tr>
-        
+    </table>
 
-        </table>
-    </form>
+    <button onclick="comprobar()">Enviar Ficha tecnica</button>
+    <br>
+    <br>
+
+
+
+    <table>
+        <tr>
+            <th colspan="4">FICHA TECNICA</th>
+        </tr>
+        <tr>
+            <th colspan="4">CARACTERISTICAS DEL PRODUCTO</th>
+        </tr>
+        <tr>
+            <th>NOMBRE DEL PRODUCTO</th>
+            <td colspan="3" id="respuesta"></td>
+        </tr>
+        <tr>
+            <th>LINEA DE PRODUCCION</th>
+            <td colspan="3" id="respuesta2"></td>
+        </tr>
+        <tr>
+            <th>VERSIONES ANTERIORES</th>
+            <td colspan="3" id="respuesta3"></td>
+        </tr>
+        <tr>
+            <th>VERSIONES ACTUALES</th>
+            <td colspan="3" id="respuesta4"></td>
+        </tr>
+        <tr>
+            <th colspan="4">MODULO</th>
+        </tr>
+        <tr>
+            <th>USUARIOS</th>
+            <td colspan="3" id="respuesta5" ></td>
+        </tr>
+        <tr>
+            <th>OBJETIVO</th>
+            <td colspan="3" id="respuesta6" ></td>
+        </tr>
+        <tr>
+            <th colspan="4">DESCRIPCION DEL PRODUCTO</th>
+        </tr>
+        <tr>
+            <th>DESCRIPCION GENERAL DEL PRODUCTO</th>
+            <td colspan="3" id="respuesta7"></td>
+        </tr>
+        <tr>
+            <th>OBJETIVO</th>
+            <td colspan="3" id="respuesta8"></td>
+        </tr>
+        <tr>
+            <th>ARQUITECTURA</th>
+            <td colspan="3" id="respuesta9"></td>
+        </tr>
+        <tr>
+            <th colspan="4">REQUERIMIENTOS DEL PRODUCTO</th>
+        </tr>
+        <tr>
+            <th rowspan="4">REQUISITOS DEL SISTEMA (SERVIDOR)</th>
+        </tr>
+        <tr>
+            <th>HARDWARE</th>
+            <td colspan="2" id="respuesta10"></td>
+        </tr>
+        <tr>
+            <th>SOFTWARE</th>
+            <td colspan="2" id="respuesta11"></td>
+        </tr>
+        <tr>
+            <th>OTROS</th>
+            <td colspan="2" id="respuesta12"></td>
+        </tr>
+        <tr>
+            <th rowspan="4">REQUISITOS DEL SISTEMA (CLIENTE)</th>
+        </tr>
+        <tr>
+            <th>HARDWARE</th>
+            <td colspan="2" id="respuesta13"></td>
+        </tr>
+        <tr>
+            <th>SOFTWARE</th>
+            <td colspan="2" id="respuesta14"></td>
+        </tr>
+        <tr>
+            <th>OTROS</th>
+            <td colspan="2" id="respuesta15"></td>
+        </tr>
+        <tr>
+            <th rowspan="4">REQUERIMIENTOS</th>
+        </tr>
+        <tr>
+            <th>REQUERIMIENTOS FUNCIONALES GENERALES</th>
+            <td colspan="2" id="respuesta16"></td>
+        </tr>
+        <tr>
+            <th>REQUERIMIENTOS ADICIONALES</th>
+            <td colspan="2" id="respuesta17"></td>
+        </tr>
+        <tr>
+            <th>CLIENTES DEL PRODUCTO</th>
+            <td colspan="2" id="respuesta18"></td>
+        </tr>
+        <tr>
+            <th>VERSION</th>
+            <th>NATURALEZA</th>
+            <th>FECHA DE ELABORACION</th>
+            <th>FECHA DE VALIDACION</th>
+        </tr>
+        <tr>
+            <td id="respuesta19"></td>
+            <td id="respuesta20"></td>
+            <td id="respuesta21"></td>
+            <td id="respuesta22"></td>
+        </tr>
+        <tr>
+            <td id="respuesta23"></td>
+            <td id="respuesta24"></td>
+            <td id="respuesta25"></td>
+            <td id="respuesta26"></td>
+        </tr>
+        <tr>
+            <th>ELABORO</th>
+            <th>APROBO</th>
+            <th>VALIDO</th>
+        </tr>
+        <tr>
+            <th>FIRMA</th>
+            <td id="respuesta27"></td>
+            <td colspan="2" id="respuesta28"></td>
+        </tr>
+        <tr>
+            <th>FECHA</th>
+            <td id="respuesta29"></td>
+            <td colspan="2" id="respuesta30"></td>
+        </tr>
+    </table>
 </body>
 </html>

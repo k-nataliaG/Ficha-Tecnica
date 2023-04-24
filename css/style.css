@@ -7,8 +7,10 @@ img {
     margin: auto;
     width: 20%;
 }
-h1 {
-    text-align: center;
+.h1 {
+   text-align: center;
+    margin: auto;
+    display: flex;
 }
 table, th, tr, td {
     border: 3px solid gray;
@@ -16,7 +18,13 @@ table, th, tr, td {
     margin: auto;
     font-size: 1em;
     border-collapse: collapse;
-
-
+    text-align: center;
+  
+    
+}
+button{
+    text-align: center;
+    display: flex;
+    margin: auto;
 
 }
